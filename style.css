@@ -1,0 +1,252 @@
+html {
+    font-size: 16px;
+}
+
+nav {
+    width: 95%;
+    margin-bottom: 35px;
+    margin-left: 7%;
+    min-width: 320px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+nav li {
+    font-size: 1.5em;
+    display: inline-block;
+    width: 23%;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 200px;
+}
+
+.colLeft {
+    float: left;
+    width: 45%;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    min-width: 180px;
+}
+
+.colRight {
+    width: 45%;
+    margin-top: 20px;
+        margin-left: 55%;
+        min-width: 180px;
+        position: relative;
+        top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+#footerImage {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    min-width: 320px;
+}
+
+.mainText {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    height: auto;
+min-width: 180px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+}
+
+
+#picGallery {    
+    width: 100%;
+    height: auto;
+    border: 0.1em solid black;
+    margin: 2px;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#picGalleryB {
+    width: 100%;
+    height: auto;
+    border: 0.1em solid black;
+}
+
+#picWindow {
+    padding: 10px;
+    width: 95%;
+    height: auto;
+    
+}
+
+#picWindowB {
+    padding: 10px;
+    width: 95%;
+    height: auto; 
+}
+
+.compassButton {
+    width: 24%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DBE9DC;
+    color: #252E25;
+}
+
+#compButts {
+    margin-left: 1%;
+    margin-right: auto;
+}
+
+#gameButt {
+    padding-left: 0px;
+    margin-left: 1%;
+    display: inline;
+    height: 30px;
+    margin-top: 0px;
+    width: 95%;
+    background-color: #DBE9DC;
+    color: #252E25;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#artifButt {
+    text-align: left;
+    
+}
+
+
+.exploreText, #gameTitle {
+    padding-left: 10px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 100px;
+    clear: left;
+    display: block;
+}
+
+#copyrightFooter {
+    font-size: 0.9em;
+}
+
+a:hover {
+color: #2C84E1;
+}
+
+a:active {
+    color: #65946D;
+}
+
+
+/* First sign of screen size impacting layout, possible approximate size for a tablet. Established manually*/
+
+@media screen and (max-width: 996px) {
+
+    .colLeft {
+        display: block;
+        width: 90%;
+        margin-left: 50px;
+        padding-bottom: 0px;
+        min-width: 180px;
+    }
+    
+    .colRight {
+        clear: both;
+        width: 70%;
+        margin-top: 0px;
+            margin-left: 5%;
+            min-width: 180px;
+            display: block;
+            margin-left: 10%;      
+     padding-bottom: 25px;
+    }
+
+    #picGallery {    
+        display: block;
+        width: 90%;
+        height: auto;
+        min-width: 320px;
+        margin-bottom: 80px;
+    }
+
+    #picGalleryB {
+        display: block;
+        width: 90%;
+        height: auto;
+        min-width: 320px;
+        margin-bottom: 20px;
+        position: relative;
+        top: -60px;
+    }
+    
+}
+
+/* Larger mobiles to tablets*/
+
+@media screen and (max-width: 924px) { 
+
+    nav li {
+        font-size: 1.2Rem;
+        display: inline-block;
+        width: 20%;
+        font-family: Arial, Helvetica, sans-serif;
+        min-width: 100px;
+    }
+
+    .mainText {
+    
+        font-family: Arial, Helvetica, sans-serif;
+        width: 95%;
+        height: auto;
+    min-width: 320px;
+    }
+
+}
+
+/* Small mobile screen*/
+
+@media screen and (max-width: 505px)
+
+{
+    nav {
+        width: 95%;
+        margin-bottom: 15px;
+        margin-left: 0;
+        min-width: 320px;
+    }
+
+    nav li {
+        font-size: 1.5em;
+        display: block;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        min-width: 200px;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+
+    .optLine {
+        display: none;
+    }
+    
+    main {
+        margin-top: 25px;
+    }
+
+    .horiLine {
+        width: 90%;
+    }
+}
